@@ -1,0 +1,139 @@
+@media(max-width: 480px) {
+
+    html,
+    body {
+        background-image: url("milkyway_trans.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        background-color: #B762C1;
+        width: 480px;
+        font-family: 'Ubuntu', sans-serif;
+    }
+}
+body {
+    background-image: url("milkyway_trans.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-color: #B762C1;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+
+/* Layout */
+
+.container {
+    position: relative;
+    text-align: center;
+    margin: 1% auto;
+    opacity: 0;
+}
+
+.image-box {
+    position: absolute;
+    top: 10%;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    padding: 5% 0 10%;
+    opacity: 0;
+}
+
+.avatar {
+    position: absolute;
+    top: 10%;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    padding: 5%;
+    opacity: 0;
+}
+
+.icons {
+    position: absolute;
+    bottom: 10%;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    padding: 5%;
+    opacity: 0;
+}
+
+/* Text */
+.name {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    color: #fff;
+    font-size: 1.5rem;
+    opacity: 0;
+}
+
+.pro {
+    text-decoration: underline;
+}
+
+/* Buttons at bottom */
+
+
+@media screen and (max-width: 600px) {
+    .rectangle {
+        visibility: hidden;
+    }
+}
+
+
+.clickables:hover {
+    color: #787A91
+}
+
+.clickables {
+    padding: 1%;
+    color: #fff;
+    opacity: 0;
+}
+
+/* button */
+
+.ext-buttons {
+    position: absolute;
+    display: flex;
+    margin: auto;
+    left: 0;
+    right: 0;
+    bottom: 5%;
+    justify-content: center;
+}
+
+.column {
+    margin: 5% 2% 0% 2%;
+}
+
+
+.btn:hover {
+    color: #787A91;
+    background-color: #fff;
+}
+
+.btn {
+    font-size: 1.5rem;
+    display: inline-block;
+    width: 140px;
+    height: 30px;
+    border-width: 1px;
+    color: rgba(255, 255, 255, 1);
+    border-color: rgba(255, 255, 255, 1);
+    font-weight: bold;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+    box-shadow: inset 0px 1px 0px 0px rgb(161, 159, 161);
+    text-shadow: inset 0px 1px 0px #ffffff;
+    background-color: transparent;
+    margin: 2%;
+    padding: 2%;
+}
