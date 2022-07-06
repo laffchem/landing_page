@@ -2,7 +2,7 @@
 
     html,
     body {
-        background-image: url("milkyway_trans.png");
+        background-image: url("images/milkyway_trans.png");
         background-repeat: no-repeat;
         background-size: cover;
         background-attachment: fixed;
@@ -11,8 +11,9 @@
         font-family: 'Ubuntu', sans-serif;
     }
 }
+
 body {
-    background-image: url("milkyway_trans.png");
+    background-image: url("images/milkyway_trans.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -79,7 +80,7 @@ body {
 /* Buttons at bottom */
 
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 800px) {
     .rectangle {
         visibility: hidden;
     }
@@ -104,12 +105,12 @@ body {
     margin: auto;
     left: 0;
     right: 0;
-    bottom: 5%;
+    bottom: 2.5%;
     justify-content: center;
 }
 
 .column {
-    margin: 5% 2% 0% 2%;
+    margin: 5% 2% 2% 2%;
 }
 
 
